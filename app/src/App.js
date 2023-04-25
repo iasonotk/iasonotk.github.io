@@ -4,9 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // import HomePage from './pages/home_page/HomePage';
 import AboutPage from './pages/AboutPage';
 import Menu from './components/menu/Menu';
-// import BlogPage from './pages/blog_pageBlogPage';
-// import PortfolioPage from './pages/portfolio_page/PortfolioPage';
-// import ContactPage from './pages/ContactPage';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -22,6 +20,9 @@ function App() {
         <Route path="/portfolio" component={PortfolioPage} />
         <Route path="/contact" component={ContactPage} /> */}
       </Routes>
+      <div>
+        <Footer />
+      </div>
     </BrowserRouter>
 
   );
