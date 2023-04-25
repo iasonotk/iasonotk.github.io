@@ -13,9 +13,9 @@ function App() {
         <Menu />
       </div>
       <Routes>
-        {/* <Menu /> */}
+        <Route path="/" component={AboutPage} />
         {/* <Route exact path="/" component={HomePage} /> */}
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/about" component={AboutPage} />
         {/* <Route path="/blog" component={BlogPage} />
         <Route path="/portfolio" component={PortfolioPage} />
         <Route path="/contact" component={ContactPage} /> */}
