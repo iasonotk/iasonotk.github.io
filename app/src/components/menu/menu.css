@@ -2,23 +2,25 @@
 .menu {
     display: flex;
     justify-content: center;
-    align-items: center;
-    justify-items: baseline;
-    padding: 30px;
+    align-items: flex-start;
+    padding: 17px;
     margin: 10px;
     list-style: none;
-    background-color: #f2f2f2; /* light gray */
+    background-color: #f2f2f2; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
 
 /* Use a bigger font size and capitalize the text */
 .menu li {
     font-size: 32px;
-    text-transform: uppercase;
-    margin-right: 10px;
+    text-transform: lowercase;
+    margin-right: 40px;
 }
 
 /* Remove the default underline for links */
 .menu a {
+    color: black;
     text-decoration: none;
 }
 
