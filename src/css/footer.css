@@ -1,0 +1,17 @@
+img[src$=".png"], img[src$=".gif"], img[src$=".jpg"] {
+  background-color: #fff;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons {
+  display: flex;
+}
