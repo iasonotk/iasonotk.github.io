@@ -1,3 +1,0 @@
-# About Me
-I am Iason, the author of this blog. All the content posted here belongs to me. The messages and opinions expressed on this blog are my personal opinions and do not belong to any organization or group with which I may be affiliated. 
-In my free time, I enjoy reading books, listening to podcasts, and watching movies. I love programming, especially automating computational processes, querying data, and solving tasks that require non-trivial processing.
