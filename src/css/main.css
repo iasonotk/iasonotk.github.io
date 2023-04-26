@@ -16,14 +16,51 @@ body {
 }
 
 #content {
-   height: 1000px; /* Changed this height */
+   height: 2000px; /* Changed this height */
    padding-bottom:60px;
 }
 
 .footer {
    position:absolute;
+   align-content: center;
    bottom:0;
    width:100%;
-   height:60px;
+   height:90px;
 }
 
+.cont {
+   display: flex;
+   justify-content: center;
+}
+
+.left_panel {
+   width: 20%;
+   height: 500px;
+   /* background-color: blue; */
+   left: 0;
+   top: 0;
+   background-image: url("/images/backgrounds/Untitled_left2.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+.center {
+   width: 60%;
+   height: 500px;
+   /* background-color: blueviolet; */
+   left: 20%;
+   top: 0;
+   background-image: url("/images/backgrounds/bckg.gif");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+.right_panel {
+   width: 20%;
+   height: 500px;
+   /* background-color: cadetblue; */
+   right: 0;
+   background-image: url("/images/backgrounds/Untitled_right.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}

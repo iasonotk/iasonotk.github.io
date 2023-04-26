@@ -3,15 +3,21 @@ img[src$=".png"], img[src$=".gif"], img[src$=".jpg"] {
 }
 
 .footer {
-  display: flex;
-  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
 }
 
 .copyright {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .footer-icons {
   display: flex;
+  justify-content: center;
 }
