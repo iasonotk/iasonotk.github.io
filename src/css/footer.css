@@ -8,8 +8,8 @@ img[src$=".png"], img[src$=".gif"], img[src$=".jpg"] {
   left: 0;
   right: 0;
   margin: auto;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: bold;
+  font-family: sans-serif;
+  /* font-weight: bold; */
 }
 
 .copyright {
